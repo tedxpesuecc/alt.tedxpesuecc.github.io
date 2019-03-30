@@ -13,6 +13,20 @@ body,html{
 }
 @import url(font-awesome.min.css);
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .icon {
     text-decoration: none;
     border-bottom: none;
@@ -999,7 +1013,7 @@ background-color:#f4f9f4
       -ms-flex-shrink: 1;
       flex-shrink: 1;
       padding: 4rem 4rem 2rem 4rem ;
-      border-left: solid 2px #e2e2e2;
+      border-left: solid 2px #000000;
     }
 
       #footer > section:first-child {
@@ -1020,7 +1034,7 @@ background-color:#f4f9f4
 
         #footer > section.split > section {
           padding: 3rem 4rem 1rem 4rem ;
-          border-top: solid 2px #e2e2e2;
+          border-top: solid 2px #000000;
         }
 
           #footer > section.split > section:first-child {
@@ -1103,7 +1117,7 @@ background-color:#f4f9f4
       }
 
         #footer > section {
-          border-top: solid 2px #e2e2e2;
+          border-top: solid 2px #000000;
         }
 
           #footer > section:first-child {
