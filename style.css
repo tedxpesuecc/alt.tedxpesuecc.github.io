@@ -717,6 +717,12 @@ background-color:#f4f9f4
     color: white;
 }
 
+#portion6{
+  font-family: 'Varela', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .button {
   text-align: left; 
 }
@@ -761,7 +767,7 @@ background-color:#f4f9f4
     }
 
     #footer a {
-      color: #717981;
+      color: #ffffff;
       border-bottom-color: rgba(113, 121, 129, 0.5);
     }
 
@@ -771,7 +777,7 @@ background-color:#f4f9f4
       }
 
     #footer strong, #footer b {
-      color: #717981;
+      color: #ffffff;
     }
 
     #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
@@ -978,6 +984,8 @@ background-color:#f4f9f4
     }
 
     #footer > section {
+      color: #ffffff;
+      background-color: #2c2c2c;
       -moz-flex-basis: 50%;
       -webkit-flex-basis: 50%;
       -ms-flex-basis: 50%;
