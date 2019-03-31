@@ -487,7 +487,7 @@ ul.icons {
 .blog-card {
   transition: height 0.3s ease;
   -webkit-transition: height 0.3s ease;
-  background: #fff;
+  background: #2c2c2c;
   border-radius: 15px;
   box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
   margin: 0 auto 1.6%;
@@ -573,7 +573,7 @@ ul.icons {
   position: relative;
 }
 .blog-card .description h1 {
-  font-family: "Roboto";
+  font-family: Arial, sans-serif;
   line-height: 1em;
   margin: 0 0 10px 0;
 }
@@ -667,7 +667,7 @@ ul.icons {
 /*    -webkit-transform: skewX(-5deg);
             transform: skewX(-5deg);*/
     content: "";
-    background: #fff;
+    background: #2c2c2c;
     width: 100%;
     height: 211%;
     z-index: -1;
@@ -809,10 +809,13 @@ background-color:#f4f9f4
 
 #portion5{
   font-family: 'Varela', sans-serif;
-    background-color:#0F2944 ;
+    background-image:url(img/Bg11.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     padding-top: 6%;
     padding-bottom: 3%;
-    color: white;
+    color: #ffffff;
 
 }
 
