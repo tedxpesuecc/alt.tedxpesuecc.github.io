@@ -857,9 +857,6 @@ ul.icons {
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
 
 #portion4{
   font-family: 'Varela', sans-serif;
