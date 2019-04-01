@@ -125,6 +125,24 @@ and to be determined by the strength.</p>
 	
 </div>
 
+<!-- FAQ section -->
+<div id="portion3" class="info">
+	<h1 style="padding-bottom: 0.6em;">FAQs</h1>
+	<button class="accordion">Question</button>
+	<div class="panel">
+  		<p>Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer </p>
+	</div>
+	<button class="accordion">Question</button>
+	<div class="panel">
+		<p>Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer </p>
+	</div>
+	<button class="accordion">Question</button>
+	<div class="panel">
+		<p>Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer </p>
+	</div>
+</div>
+
+
 
 <div id="portion6">
 <!-- Footer -->
@@ -220,7 +238,56 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-    
+
+<script type="text/javascript">
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<style>
+.panel {
+  padding: 0 18px;
+  background-color: rgba(0, 0, 0, 0.89);
+  background: url(img/Bg12.png) no-repeat center center fixed;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 <script>
 var myIndex = 0;
 carousel();
